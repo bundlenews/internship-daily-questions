@@ -1,6 +1,6 @@
 # Staj Dönemi Günlük Çalışma Soruları
 
-1. Optional'ı açmanın (unwrap) etmenin kaç yolu vardır? Örnek vererek açıklayınız. (İpucu: 7'den fazla yöntemi bulunuyor.)
+1. What are the various ways to unwrap an optional? How do they rate in terms of safety? (Hint: There are at least seven ways.)
 
 
 # Amaç
