@@ -1,10 +1,10 @@
 # Swift - Several Ways of Unwrapping Optionals
 
-### By Korel Hayrullah
+##### By Korel Hayrullah
 
-### [GitHub]( https://github.com/korelhayrullah)
+##### [GitHub]( https://github.com/korelhayrullah)
 
-### [LinkedIn](https://www.linkedin.com/in/korel-chairoula-238882121)
+##### [LinkedIn](https://www.linkedin.com/in/korel-chairoula-238882121)
 
 ### What is an Optional?
 
@@ -45,9 +45,9 @@ func getWeatherForecast(for: String) -> [Weather]? {
 }
 ```
 
+### 8 ways for unwrapping
 
-
-## Way 1 - Force Unwrapping
+##### Way 1 - Force Unwrapping
 
 Example:
 
@@ -62,7 +62,7 @@ print(optionalInt!)
 
 **P.S. Should be avoided as much as possible.**
 
-## Way 2 - Implicitly Unwrapping
+##### Way 2 - Implicitly Unwrapping
 
 Example:
 
@@ -73,7 +73,7 @@ print(optionalChar)
 
 **Is it safe** :-1:
 
-## Way 3 - Safety Check
+##### Way 3 - Safety Check
 
 Example:
 
@@ -90,7 +90,7 @@ if optionalString != nil {
 
 **Is it safe? ** :+1:
 
-## Way 4 - Optional Binding
+##### Way 4 - Optional Binding
 
 Example: 
 
@@ -107,7 +107,7 @@ if let unwrappedOptionalDouble = optionalDouble {
 
 **Is it safe? ** :+1:
 
-## Way 5 - Guard
+##### Way 5 - Guard
 
 Example:
 
@@ -121,7 +121,7 @@ print(unwrappedOptionalCGFloat)
 
 **Is it safe? ** :+1:
 
-## Way 6 - Nil Coalescing
+##### Way 6 - Nil Coalescing
 
 Example:
 
@@ -133,7 +133,7 @@ print(optionalFloat ?? 0.0)
 
 **Is it safe? ** :+1:
 
-## Way 7 - Optional Chaining
+##### Way 7 - Optional Chaining
 
 Example:
 
@@ -159,7 +159,7 @@ if let amountOfCreditCard = myWallet.creditCard?.amount {
 
 **Is it safe? ** :+1:
 
-## Way 8 - Optional Pattern
+##### Way 8 - Optional Pattern
 
 Example:
 
@@ -211,8 +211,6 @@ case .none:
 
 // prints "The value I am a string! is of type String."
 ```
-
-
 
 **Is it safe? ** :+1:
 
