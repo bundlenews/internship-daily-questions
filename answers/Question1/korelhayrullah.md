@@ -164,7 +164,7 @@ if let amountOfCreditCard = myWallet.creditCard?.amount {
 Example:
 
 ```swift
-	let optionalNames: [String?] = ["Alice", nil, nil, "Peter", "Jack", nil, "Jasmine"]
+let optionalNames: [String?] = ["Alice", nil, nil, "Peter", "Jack", nil, "Jasmine"]
 
 // will print only the non nil values
 for case .some(let name) in optionalNames {
@@ -224,7 +224,7 @@ let sentence = "I am a sentence."
 // substrings is type of [String.SubSequence]
 let substrings = sentence.split(separator: " ")
 
-// lastWord is an optinal (the last property returns an optional, see: https://developer.apple.com/documentation/swift/array/1689973-last)
+// lastWord is an optional (the last property returns an optional, see: https://developer.apple.com/documentation/swift/array/1689973-last)
 let lastWord = substrings.last
 
 // unwrappedLastWord is now casted as String and unwrapped
