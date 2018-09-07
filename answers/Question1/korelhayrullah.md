@@ -15,10 +15,10 @@ To define an optional simply put a "?" or "!" after the type.
 Example:
 
 ```swift
-let someOptinalValueOfTypeInt: Int? = 5
+let someOptionalValueOfTypeInt: Int? = 5
 ```
 
-This indicates that the variable ```someOptinalValueOfTypeInt: Int?``` may contain an integer, in which in this case it contains a 5, or may not containt any value at all which is ```nil```.
+This indicates that the variable ```someOptionalValueOfTypeInt: Int?``` may contain an integer, in which in this case it contains a 5, or may not containt any value at all which is ```nil```.
 
 To better understand the use of optionals, think of a case where you have an application that lets you search the wheather forecast for a specific location and shows the relevant data according to the given location. As soon as you type a location for searching there is an API call that is done asynchronously and the data may not be shown due to lost internet connection, slow internet connection, corrupted data and etc. Using optionals for this case will let you know whether the relevant info has returned or not. So, the development phase becomes pretty easy and the neccessary actions can be taken in order to solve this problem.
 
