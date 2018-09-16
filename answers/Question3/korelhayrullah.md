@@ -1,6 +1,6 @@
 # Swift - How Is Memory Management Handled in iOS?
 
-#####By Korel Hayrullah
+##### By Korel Hayrullah
 
 ##### [GitHub]( https://github.com/korelhayrullah)
 
