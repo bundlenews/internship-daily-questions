@@ -1,4 +1,4 @@
-# Swift - Several Ways of Unwrapping Optionals
+# Swift - Several ways of unwrapping optionals
 
 ##### By Korel Hayrullah
 

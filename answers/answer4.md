@@ -1,4 +1,4 @@
-# Swift - What Is The Difference Between Weak and Strong?
+# Swift - What is the difference between weak and strong?
 
 ##### By Korel Hayrullah
 

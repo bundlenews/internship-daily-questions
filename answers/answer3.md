@@ -1,4 +1,4 @@
-# Swift - How Is Memory Management Handled in iOS?
+# Swift - How is memory management handled in iOS?
 
 ##### By Korel Hayrullah
 

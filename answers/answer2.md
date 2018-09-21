@@ -1,4 +1,4 @@
-# Swift - What Are Closures and What Are They Used For? Are Closures Value or Reference Types?
+# Swift - What are closures and what are they used for? Are closures value or reference types?
 
 ##### By Korel Hayrullah
 
